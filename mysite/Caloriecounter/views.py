@@ -6,6 +6,6 @@ def hey(request):
     return HttpResponse(data)
 
 def home(request):
-    context ={'name':'Manusharma'}
-    return render(request, 'home.html',context)
+    context = {'name':'Manusharma'}
+    return render(request,'home.html',context)
 # Create your views here.
